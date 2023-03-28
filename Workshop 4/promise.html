@@ -23,29 +23,11 @@
             });
         }
 
-        getFruit("apple")
-            .then((message) => {
-                console.log(message);
-            })
-            .catch((error) => {
-                console.error(error);
-            });
+const userInput = prompt("Enter the name of the fruit:");
 
-        getFruit("watermelon")
-            .then((message) => {
-                console.log(message);
-            })
-            .catch((error) => {
-                console.error(error);
-            });
-
-        getFruit("banana")
-            .then((message) => {
-                console.log(message);
-            })
-            .catch((error) => {
-                console.error(error);
-            });
+getFruit(userInput)
+    .then((message) => console.log(message))
+    .catch((error) => console.error(error));
     </script>
 </body>
 
