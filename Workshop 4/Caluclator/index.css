@@ -1,0 +1,54 @@
+.container {
+    background-color: #333;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  h1{
+    text-align: center;
+  }
+  .row1 {
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+    background-color: #666;
+    color: #fff;
+  }
+  
+  .button {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .row2, .row3, .row4, .row5, .row6 {
+    display: flex;
+  }
+  
+  .row6 .button {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  .row6 .button {
+    background-color: #e60000;
+  }
+  
